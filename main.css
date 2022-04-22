@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cookie&family=Dancing+Script:wght@400;500&family=Merriweather:ital,wght@0,400;1,300&family=Ms+Madi&family=Quicksand:wght@300;500&family=Roboto:wght@300;400&family=Updock&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'merriwwather', serif;
+    margin: 0;
+    padding: 0.3em;
+    font-size: 1em;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+.logo>img{
+    width: 9em;
+    height: 6.5em;
+}
+
+#myheader{
+    padding: 0.2em;
+    background-color: hsl(0, 45%, 70%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav>a{
+
+    padding: 0.5em 0.5em;
+    font-family: 'Cookie';
+    font-size: xx-large;
+    color: hsl(0, 0%, 0%);
+    border-radius: 1em;
+    text-decoration: none;
+    cursor:pointer     
+}
+.nav>a:hover{
+    background-color: hsla(0, 0%, 100%, 0.395);
+}
+
+.card{
+    background-color: hsla(0, 0%, 99%, 0.726);
+    color: hsl(0, 0%, 0%);
+    margin: 2em;
+    padding: 4em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 0.25em hsl(316, 31%, 24%);
+}
+
+#homepage{
+    background-color: hsl(0, 45%, 70%);
+    background-image: url(mel-poole-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about-me{
+    background-color: hsl(0, 45%, 70%);
+    background-image: url(kelly-sikkema-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact-me{
+    background-color: hsl(0, 45%, 70%);
+    background-image: url(jess-bailey-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.socials{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+
+.sub-header{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+.card>.para{
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-size: 140%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img{
+    width: 280px;
+    height: 180px;
+    border-radius: 5em;
+}
+
+.gallery {
+    background-color: hsla(0, 0%, 99%, 0.726);
+    margin: 0.7em;
+    /* padding: ; */
+    border: 1px solid hsl(0, 1%, 57%);
+    border-radius: 5em;
+    float: left;
+    width: 299px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.gallery>img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery:hover{
+    border: 1px solid hsl(322, 81%, 80%);
+}
+
+.description{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.description2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.description2:hover{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: hsl(316, 31%, 24%);
+}
+
+
+.questions{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+.answers{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 150%;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.insta{
+    padding: 1em;
+}
